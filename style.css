@@ -32,17 +32,28 @@ body {
     background-color: rgb(255, 216, 143);
     border: 4px solid black;
     border-radius: 25px;
-    margin-left: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
     margin-top: 10px;
+    max-width: 300px;
 }
 
 #news {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: grey;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-
 .newsImage {
     width: 250px;
     height: 250px;
+}
+footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5e5e5e;
+    text-align: center;
+    background-color: rgb(255, 188, 101);
+    margin: 30px;
+    padding: 20px;
 }
