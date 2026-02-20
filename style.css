@@ -1,4 +1,26 @@
 #teamLogo {
-    width: 500;
-    height: 500;
+    width: 100px;
+    height: 100px;
+    padding-right: 10px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#links {
+    padding-right: 100px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #06582b;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
