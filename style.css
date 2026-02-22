@@ -57,3 +57,32 @@ footer {
     margin: 30px;
     padding: 20px;
 }
+
+.teamLineup {
+    text-align: center;
+    background-color: rgba(175, 117, 9, 0.555);
+    margin: 40px;
+    
+}
+
+#lineupTitle {
+text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.player {
+    text-align: center;
+    
+}
+#players {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.icon_player {
+width: 52px;
+height: 60px;
+}
